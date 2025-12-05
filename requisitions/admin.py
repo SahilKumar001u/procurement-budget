@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import UserProfile, Requisition, LineItem, ApprovalLog
 
-# Admin interface disabled as per requirements
+admin.site.register(UserProfile)
+admin.site.register(Requisition)
+admin.site.register(LineItem)
+admin.site.register(ApprovalLog)
+
